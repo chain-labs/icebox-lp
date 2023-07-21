@@ -4,10 +4,10 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <div className="w-screen h-10 px-4.5 py-2 flex justify-center items-center border dark:border-neutral-800 dark:bg-neutral-900">
-      <div className="w-[1440px]">
-        <div className="relative h-5 w-[126px]">
-          <Image src={BRAND_DARK} alt="brand_logo" fill objectFit="contain" />
+    <div className="w-screen px-[18px] py-2 flex justify-center items-center border dark:border-neutral-800 dark:bg-neutral-900">
+      <div className="w-full md:w-[1440px] h-[34px] flex items-center">
+        <div className="relative h-[15.7px] w-[79.4px] md:h-[25.66px] md:w-[126px]">
+          <Image src={BRAND_DARK} alt="brand_logo" fill />
         </div>
       </div>
     </div>
