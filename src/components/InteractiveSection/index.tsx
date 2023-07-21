@@ -1,6 +1,8 @@
 import Image from "next/image";
 import React from "react";
 import Interaction1 from "./Interaction1";
+import Interaction2 from "./Interaction2";
+import Interaction3 from "./Interaction3";
 
 type Props = {};
 
@@ -19,18 +21,3 @@ const InteractiveSection = (props: Props) => {
 };
 
 export default InteractiveSection;
-
-const Interaction2 = () => {
-  return (
-    <div className="md:h-[192px] border border-neutral-800 rounded-[10px] flex justify-center items-center ">
-      Interaction 2
-    </div>
-  );
-};
-const Interaction3 = () => {
-  return (
-    <div className="md:h-[192px] border border-neutral-800 rounded-[10px] flex justify-center items-center ">
-      Interaction 3
-    </div>
-  );
-};

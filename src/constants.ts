@@ -8,3 +8,5 @@ export const DEGODS_AVATAR =
   "https://ik.imagekit.io/chainlabs/Icebox/landing-page/rectangle_1886_T-WYCor2s.svg?updatedAt=1689945810047";
 export const LOADER =
   "https://ik.imagekit.io/chainlabs/Icebox/landing-page/loader_4QUGTq18f.svg?updatedAt=1689956303022";
+export const BITCOIN =
+  "https://ik.imagekit.io/chainlabs/Icebox/landing-page/bitcoin_Rnv3aloSf.svg?updatedAt=1689945687870";

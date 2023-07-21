@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Interaction1 = () => {
   return (
-    <div className="order-2 md:order-1 w-full md:w-[273px] md:h-full border border-neutral-800 rounded-[10px] flex flex-col items-center px-4 pb-[18px] md:p-5 md:justify-end">
+    <div className="order-2 md:order-1 w-full md:w-[273px] md:h-full border border-neutral-800 rounded-[10px] flex flex-col items-center px-4 pb-[18px] md:p-5 md:justify-end bg-neutral-900">
       <div className="mt-[42px] md:mt-0 rounded-[10px] flex items-center p-2.5 animate-throb mb-[42px] md:mb-[105px]">
         <Image
           src={DEGODS_AVATAR}
