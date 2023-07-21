@@ -17,7 +17,7 @@ module.exports = {
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
       animation: {
-        'throb': 'throb 2s linear infinite'
+        'throb': 'throb 2s ease-in-out infinite'
       }
     },
   },

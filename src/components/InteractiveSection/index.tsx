@@ -7,9 +7,9 @@ type Props = {};
 const InteractiveSection = (props: Props) => {
   return (
     <div className="w-screen flex justify-center">
-      <div className="w-[90%] md:w-[700px] flex flex-col md:flex-row">
+      <div className="w-[90%] md:w-[700px] flex flex-col md:flex-row gap-4">
         <Interaction1 />
-        <div className="order-1 md:order-2 md:flex-1">
+        <div className="order-1 md:order-2 md:flex-1 flex flex-col gap-4">
           <Interaction2 />
           <Interaction3 />
         </div>
@@ -22,7 +22,7 @@ export default InteractiveSection;
 
 const Interaction1 = () => {
   return (
-    <div className="order-2 md:order-1 w-full md:w-[273px] md:h-full border border-neutral-800 rounded-[10px] flex flex-col items-center px-4 pb-[18px] md:p-5 md:justify-end md:mr-4">
+    <div className="order-2 md:order-1 w-full md:w-[273px] md:h-full border border-neutral-800 rounded-[10px] flex flex-col items-center px-4 pb-[18px] md:p-5 md:justify-end">
       <div className="mt-[42px] md:mt-0 rounded-[10px] flex items-center p-2.5 animate-throb mb-[42px] md:mb-[105px]">
         <Image
           src={DEGODS_AVATAR}
@@ -57,7 +57,7 @@ const Interaction1 = () => {
 
 const Interaction2 = () => {
   return (
-    <div className="md:h-[192px] md:mb-4 border border-neutral-800 rounded-[10px] flex justify-center items-center ">
+    <div className="md:h-[192px] border border-neutral-800 rounded-[10px] flex justify-center items-center ">
       Interaction 2
     </div>
   );
