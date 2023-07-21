@@ -22,3 +22,22 @@ body {
 
   font-family: 'Inter', sans-serif;
 }
+
+
+@keyframes throb {
+  0%{
+    box-shadow: 0px 0px 0px 1px #7794FB, 0px 0px 0px 5px #1D1D1F00, 0px 0px 0px 6px rgba(54, 97, 249, 0), 0px 0px 0px 10px #1D1D1F00, 0px 0px 0px 11px rgba(54, 97, 249, 0);
+  }
+  25% {
+
+  }
+  50% {
+    box-shadow: 0px 0px 0px 1px #7794FB, 0px 0px 0px 5px #1D1D1F, 0px 0px 0px 6px rgba(54, 97, 249, 0.85), 0px 0px 0px 10px #1D1D1F, 0px 0px 0px 11px rgba(54, 97, 249, 0.5);
+  }
+  75% {
+
+  }
+  100% {
+    box-shadow: 0px 0px 0px 1px #7794FB, 0px 0px 0px 5px #1D1D1F00, 0px 0px 0px 6px rgba(54, 97, 249, 0), 0px 0px 0px 10px #1D1D1F00, 0px 0px 0px 11px rgba(54, 97, 249, 0);
+  }
+}
