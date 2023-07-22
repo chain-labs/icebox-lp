@@ -12,3 +12,5 @@ export const BITCOIN =
   "https://ik.imagekit.io/chainlabs/Icebox/landing-page/bitcoin_Rnv3aloSf.svg?updatedAt=1689945687870";
 export const AVATAR_TEMP =
   "https://ik.imagekit.io/chainlabs/Icebox/landing-page/avatars";
+
+export const COLLECTION_TEMP = "https://ik.imagekit.io/chainlabs/Icebox/landing-page/collections/collection"
