@@ -9,7 +9,9 @@ module.exports = {
     extend: {
       colors: {
         "neutral-800": "#202020",
-        "zinc-500": "#898989"
+        "zinc-500": "#898989",
+        "zinc-300": "#D7D8DC",
+        "violet-50": "#F7F5FF"
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',

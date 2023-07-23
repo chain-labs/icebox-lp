@@ -30,7 +30,7 @@ const Gallery = () => {
   const size = useWindowSize();
 
   return (
-    <div className="mt-[60px] md:mt-[100px] w-screen flex justify-center pb-[200px]">
+    <div className="mt-[60px] md:mt-[100px] w-screen flex justify-center mb-14 md:mb-[100px]">
       <div className="w-full flex flex-col">
         <div className="mb-4 md:w-[1440px] w-[90%] self-center flex justify-between items-center">
           <h2 className="text-white text-xl font-bold leading-7">

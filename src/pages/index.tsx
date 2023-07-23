@@ -4,6 +4,7 @@ import Navbar from "@/components/Navbar";
 import HeroSection from "@/components/HeroSection";
 import InteractiveSection from "@/components/InteractiveSection";
 import dynamic from "next/dynamic";
+import ThawBox from "@/components/ThawBox";
 
 const Gallery = dynamic(() => import("@/components/Gallery"), {
   loading: () => <p>Loading...</p>,
@@ -18,6 +19,7 @@ export default function Home() {
       <HeroSection />
       <InteractiveSection />
       <Gallery />
+      <ThawBox />
     </main>
   );
 }

@@ -13,4 +13,23 @@ export const BITCOIN =
 export const AVATAR_TEMP =
   "https://ik.imagekit.io/chainlabs/Icebox/landing-page/avatars";
 
-export const COLLECTION_TEMP = "https://ik.imagekit.io/chainlabs/Icebox/landing-page/collections/collection"
+export const COLLECTION_TEMP =
+  "https://ik.imagekit.io/chainlabs/Icebox/landing-page/collections/collection";
+
+export const SMILEY =
+  "https://ik.imagekit.io/chainlabs/Icebox/landing-page/smiley_SuXg5vzvi.svg?updatedAt=1689947084871";
+
+export const CROWN =
+  "https://ik.imagekit.io/chainlabs/Icebox/landing-page/crown_CJ6dfVwAA.svg?updatedAt=1689947084853";
+
+export const CURSOR =
+  "https://ik.imagekit.io/chainlabs/Icebox/landing-page/cursor_d6TFqXzaDJ.svg?updatedAt=1689947084810";
+
+export const GLOBE =
+  "https://ik.imagekit.io/chainlabs/Icebox/landing-page/Globe_r5dflzbBC.svg?updatedAt=1689947154744";
+
+export const TWITTER =
+  "https://ik.imagekit.io/chainlabs/Icebox/landing-page/TwitterLogo_A-35kh_g6.svg?updatedAt=1689947154721";
+
+export const THAW =
+  "https://ik.imagekit.io/chainlabs/Icebox/landing-page/thaw_screen_eONhlvGo1.svg?updatedAt=1689947286307";
