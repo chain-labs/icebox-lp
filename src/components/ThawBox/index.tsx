@@ -5,7 +5,7 @@ import React from "react";
 
 const ThawBox = () => {
   return (
-    <div className="w-full flex justify-center mb-14">
+    <div className="w-full flex justify-center mb-14 md:mb-[83px]">
       <div
         className="w-[354px] md:w-[700px] flex flex-col md:flex-row rounded-[10px] overflow-x-hidden"
         style={{
@@ -73,7 +73,7 @@ const ThawBox = () => {
           </div>
         </div>
         <div>
-          <div className="rounded-tl-[16px] w-[355px] ml-[55px] md:mt-[32px] border border-[#ffffff40] pt-1.5 pl-1.5">
+          <div className="rounded-tl-[16px] w-[355px] ml-[55px] md:mt-[32px] border-l border-t border-[#ffffff40] pt-1.5 pl-1.5">
             <Image
               src={THAW}
               alt="THAW IMG"
