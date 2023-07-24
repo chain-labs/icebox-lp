@@ -12,7 +12,7 @@ const DIRECTION = {
 const Interaction2 = () => {
   const [animationDirection, setAnimationDirection] = useState(DIRECTION.RIGHT);
   const [animationEnd, setAnimationEnd] = useState(false);
-  const ref = useRef();
+  const boxRef = useRef(null);
 
   useEffect(() => {
     setTimeout(() => {
@@ -60,7 +60,7 @@ const Interaction2 = () => {
         </motion.div>
         <div
           className="h-full flex-1 overflow-hidden relative mx-[-4px] "
-          ref={ref}
+          ref={boxRef}
         >
           <svg
             width="350"
@@ -103,10 +103,12 @@ const Interaction2 = () => {
             }}
             variants={{
               leftToRight: {
-                x: [-600, -34, 122, 600],
+                // @ts-expect-error
+                x: [-600, -34, boxRef?.current?.clientWidth - 34 || 122, 600],
               },
               rightToLeft: {
-                x: [600, 122, -34, -600],
+                // @ts-expect-error
+                x: [600, boxRef?.current?.clientWidth - 34, -34, -600],
               },
             }}
             className="bg-[#446148] py-[5px] px-2.5 rounded-[20px] text-[10px] font-medium leading-3 text-[#55f567] z-10 absolute top-0 left-0"
