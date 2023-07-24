@@ -41,8 +41,14 @@ html {
 }
 
 
-@keyframes lineMove {
+@keyframes lineMoveRight {
   to {
     stroke-dashoffset: 0;
+  }
+}
+
+@keyframes lineMoveLeft {
+  to {
+    stroke-dashoffset: 300;
   }
 }
