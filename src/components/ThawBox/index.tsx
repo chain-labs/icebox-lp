@@ -15,48 +15,48 @@ const ThawBox = () => {
             "0 0 0 1px #364ED1 inset, 0 0 0 2px rgba(32, 41, 129, 0.58)",
         }}
       >
-        <div className="pt-8 pl-4 w-[320px]">
+        <div className="pt-8 pl-4 pr-4 md:pr-0 md:w-[294px] flex-1">
           <h3 className="text-2xl font-medium leading-8 mb-2">
             Icebox is part of the Thaw Digital family
           </h3>
-          <h4 className="text-sm leading-5 text-[#ffffffcc]">
+          <h4 className="text-sm md:text-xs leading-5 text-[#ffffffcc] w-[294px]">
             Innovation + experience from a leader in crypto debt financing.
           </h4>
           <div className="my-[45px] flex justify-between">
             <div>
               <div>
-                <div className="relative h-[22.5px] w-[29.2px]">
+                <div className="relative h-[22.5px] w-[29.2px] md:h-[34.4px] md:w-[44.8px]">
                   <Image src={CROWN} alt="crown" fill />
                 </div>
               </div>
-              <div className="ml-2.5 mt-[-10px]">
-                <div className="relative h-[27.9px] w-[28.3px]">
+              <div className="ml-2.5 mt-[-10px] md:mt-[-16px] md:ml-[12px]">
+                <div className="relative h-[27.9px] w-[28.3px] md:h-[42.8px] md:w-[43.3px]">
                   <Image src={SMILEY} alt="smiley" fill />
                 </div>
               </div>
             </div>
             {/* Cursor */}
             <div className="flex">
-              <div className="relative h-[27.9px] w-[28.3px]">
+              <div className="relative h-[26px] w-[26px] ">
                 <Image src={CURSOR} alt="cursor" fill />
               </div>
               <div
-                className="rounded-[24px] border border-zinc-300 bg-violet-50 py-0.5 px-2.5 flex mt-[20px] ml-[-8px]"
+                className="rounded-[24px] border border-zinc-300 bg-violet-50 py-0.5 px-2.5 flex mt-[20px] ml-[-8px] items-center md:h-7"
                 style={{
                   boxShadow:
                     "0px -2px 2px 0px rgba(18, 20, 22, 0.17) inset, 2px 2px 3px 0px #FFF inset",
                 }}
               >
-                <h4 className="text-xs font-medium leading-6 text-[#3855f2]">
+                <p className="text-xs font-medium leading-6 text-[#3855f2]">
                   Find us on
-                </h4>
+                </p>
                 <Link href="" className="flex items-center">
                   <Image
                     src={TWITTER}
                     height={16}
                     width={16}
                     alt="Twitter"
-                    className="ml-1"
+                    className="ml-1 "
                   />
                 </Link>
                 <Link href="" className="flex items-center">
@@ -73,7 +73,7 @@ const ThawBox = () => {
           </div>
         </div>
         <div>
-          <div className="rounded-tl-[16px] w-[355px] ml-[55px] md:mt-[32px] border-l border-t border-[#ffffff40] pt-1.5 pl-1.5">
+          <div className="rounded-tl-[16px] w-[355px] ml-[55px] md:ml-[40px] md:mt-[40px] border-l border-t border-[#ffffff40] pt-1.5 pl-1.5">
             <Image
               src={THAW}
               alt="THAW IMG"
