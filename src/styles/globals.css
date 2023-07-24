@@ -48,6 +48,9 @@ html {
 }
 
 @keyframes lineMoveLeft {
+  from {
+    stroke: #f2a90091;
+  }
   to {
     stroke-dashoffset: 300;
   }
