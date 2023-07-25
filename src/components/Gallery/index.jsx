@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef } from "react";
 import CarouselItem, { ICollection } from "./CarouselItem";
 import { COLLECTION_TEMP } from "@/constants";
 import Image from "next/image";
@@ -28,6 +28,16 @@ const COLLECTIONS = [
 
 const Gallery = () => {
   const size = useWindowSize();
+  const carouselRef = useRef();
+
+  const handleLeft = () => {
+    carouselRef.current.scrollBy(-10, 0);
+  }
+
+  const handleRight = () => {
+    carouselRef.current.scrollBy(100, 0);
+  }
+
 
   return (
     <div className="mt-[60px] md:mt-[100px] w-screen flex justify-center mb-14 md:mb-[100px]">
@@ -40,12 +50,13 @@ const Gallery = () => {
             background: "linear-gradient(180deg, rgba(255, 255, 255, 0.00) 0%, rgba(193, 199, 208, 0.02) 100%), #131314",
             boxShadow: "0px 0px 0px 1px rgba(18, 55, 105, 0.08), 0px 1px 2px 0px rgba(164, 172, 185, 0.10)"
           }}>
-            <ChevronLeft size={20} />
+            <ChevronLeft size={20} onClick={handleLeft} style={{cursor: "pointer"}} />
             <div className="w-3 h-full" />
-            <ChevronRight size={20}  />
+            <ChevronRight size={20} onClick={handleRight} style={{cursor: "pointer"}} />
           </div>
         </div>
         <div
+          ref={carouselRef}
           className="carousel carousel-center max-w-md md:max-w-full space-x-4"
           style={{
             paddingLeft: `${
