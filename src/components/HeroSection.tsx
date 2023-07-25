@@ -4,7 +4,7 @@ type Props = {};
 
 const HeroSection = (props: Props) => {
   return (
-    <div className="md:mt-[118px] mt-[106px] w-screen flex justify-center">
+    <div className="md:mt-[68px] mt-[56px] w-screen flex justify-center">
       <div className="w-[90%] md:w-[1440px] flex flex-col items-center">
         <div className="md:w-[560px] w-full mb-12 md:mb-[42px]">
           <h1 className="text-center md:text-5xl text-[32px] font-medium leading-10 md:leading-[57.6px] tracking-[-0.32px] md:tracking-[-0.96px]">

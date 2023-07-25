@@ -1,3 +1,4 @@
+import { LOGO } from "@/constants";
 import { Html, Head, Main, NextScript } from "next/document";
 
 export default function Document() {
