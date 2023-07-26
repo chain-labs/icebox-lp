@@ -33,4 +33,4 @@ export const TWITTER =
   "https://ik.imagekit.io/chainlabs/Icebox/landing-page/TwitterLogo_A-35kh_g6.svg?updatedAt=1689947154721";
 
 export const THAW =
-  "https://ik.imagekit.io/chainlabs/Icebox/landing-page/thaw_screen_eONhlvGo1.svg?updatedAt=1689947286307";
+  "https://ik.imagekit.io/chainlabs/Icebox/landing-page/thawbanner_63rO--zYY.png?updatedAt=1690394079633";
